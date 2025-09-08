@@ -1,0 +1,21 @@
+# Ignore PHP dependencies and sensitive files
+/vendor/
+/node_modules/
+*.log
+*.env
+
+# Editor/OS files
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Uploads and database dumps
+uploads/
+*.sql
+
+# Images (optional: use Git LFS for these)
+*.png
+*.jpg
+*.jpeg
+*.avif
+*.gif
